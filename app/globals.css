@@ -1,0 +1,127 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Updated color palette for Alaere Care - feminine, trustworthy design */
+  --background: #f8f4f6; /* Light muted pink background */
+  --foreground: #333333; /* Charcoal gray */
+  --card: #ffffff; /* White cards */
+  --card-foreground: #333333; /* Charcoal gray text */
+  --popover: #ffffff; /* White */
+  --popover-foreground: #333333; /* Charcoal gray */
+  --primary: #a4c8e1; /* Soft blue primary */
+  --primary-foreground: #333333; /* Charcoal gray */
+  --secondary: #f3e3e6; /* Muted pink secondary */
+  --secondary-foreground: #333333; /* Charcoal gray */
+  --muted: #f3e3e6; /* Muted pink */
+  --muted-foreground: #666666; /* Lighter gray for muted text */
+  --accent: #ff6f61; /* Light coral accent */
+  --accent-foreground: #ffffff; /* White text on accent */
+  --destructive: #ff4c4c; /* Red for alerts */
+  --destructive-foreground: #ffffff; /* White */
+  --border: #e0d4d8; /* Soft border color */
+  --input: #ffffff; /* White inputs */
+  --ring: rgba(164, 200, 225, 0.5); /* Soft blue focus ring */
+  --chart-1: #a4c8e1; /* Soft blue */
+  --chart-2: #ff6f61; /* Light coral */
+  --chart-3: #f3e3e6; /* Muted pink */
+  --chart-4: #b8d4e3; /* Lighter blue */
+  --chart-5: #ffb3a7; /* Lighter coral */
+  --radius: 0.5rem; /* Slightly rounded edges */
+  --sidebar: #f3e3e6; /* Muted pink */
+  --sidebar-foreground: #333333; /* Charcoal gray */
+  --sidebar-primary: #a4c8e1; /* Soft blue */
+  --sidebar-primary-foreground: #333333; /* Charcoal gray */
+  --sidebar-accent: #ff6f61; /* Light coral */
+  --sidebar-accent-foreground: #ffffff; /* White */
+  --sidebar-border: #e0d4d8; /* Soft border */
+  --sidebar-ring: rgba(164, 200, 225, 0.5); /* Soft blue ring */
+}
+
+.dark {
+  /* Dark mode colors maintaining the feminine aesthetic */
+  --background: #2a1f23; /* Dark muted background */
+  --foreground: #f8f4f6; /* Light foreground */
+  --card: #3a2f33; /* Dark card background */
+  --card-foreground: #f8f4f6; /* Light text */
+  --popover: #3a2f33; /* Dark popover */
+  --popover-foreground: #f8f4f6; /* Light text */
+  --primary: #a4c8e1; /* Keep soft blue */
+  --primary-foreground: #2a1f23; /* Dark text on primary */
+  --secondary: #4a3f43; /* Darker muted pink */
+  --secondary-foreground: #f8f4f6; /* Light text */
+  --muted: #4a3f43; /* Darker muted */
+  --muted-foreground: #b8b0b4; /* Muted light text */
+  --accent: #ff6f61; /* Keep coral accent */
+  --accent-foreground: #ffffff; /* White text */
+  --destructive: #ff6b6b; /* Softer red for dark mode */
+  --destructive-foreground: #ffffff; /* White */
+  --border: #4a3f43; /* Dark border */
+  --input: #3a2f33; /* Dark input */
+  --ring: rgba(164, 200, 225, 0.3); /* Dimmer focus ring */
+  --chart-1: #a4c8e1; /* Soft blue */
+  --chart-2: #ff6f61; /* Light coral */
+  --chart-3: #6a5f63; /* Darker muted pink */
+  --chart-4: #8bb4d1; /* Muted blue */
+  --chart-5: #e85a4f; /* Darker coral */
+  --sidebar: #2a1f23; /* Dark sidebar */
+  --sidebar-foreground: #f8f4f6; /* Light text */
+  --sidebar-primary: #a4c8e1; /* Soft blue */
+  --sidebar-primary-foreground: #2a1f23; /* Dark text */
+  --sidebar-accent: #ff6f61; /* Light coral */
+  --sidebar-accent-foreground: #ffffff; /* White */
+  --sidebar-border: #4a3f43; /* Dark border */
+  --sidebar-ring: rgba(164, 200, 225, 0.3); /* Dimmer ring */
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
