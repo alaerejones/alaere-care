@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Heart, Calendar, Users, BookOpen, Stethoscope, Shield } from "lucide-react"
 import Link from "next/link"
 
-export default function LandingPage() {
+ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
