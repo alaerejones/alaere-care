@@ -16,11 +16,10 @@ export default function LandingPage() {
           <div className="flex items-center gap-4">
             <Link href="/login">
 
-              <Button 
-              size="lg"
+              <Button
                 variant="outline"
-                className="border-primary text-primary hover:bg-primary/10 px-8 py-3 bg-transparent">
-                Log In
+                className="border-primary text-primary hover:bg-primary/10 px-8 text-primary py-3 bg-transparent">
+                Log Ins
               </Button>
             </Link>
             <Link href="/signup">
