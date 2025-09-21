@@ -11,7 +11,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-1">
             <Heart className="h-6 w-6 text-primary" />
-            <h1 className="text-xl font-bold text-foreground font-[family-name:var(--font-poppins)]">Alaere Care</h1>
+            <h1 className="text-xl font-bold text-foreground font-[family-name:var(--font-poppins)]">Alaere</h1>
           </div>
           <div className="flex items-center gap-4">
             <Link href="/login">
