@@ -45,7 +45,7 @@ export default function LandingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/signup">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3">
+              <Button size="lg" className="bg-primary text-accent-foreground hover:bg-primary/90 px-8 py-3">
                 Start Your Journey
               </Button>
             </Link>
