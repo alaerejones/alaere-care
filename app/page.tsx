@@ -36,7 +36,7 @@ export default function LandingPage() {
               className="mx-auto mb-8 rounded-lg"
             />
           </div>
-          <h2 className="text-5xl font-bold text-foreground mb-6 font-[family-name:var(--font-poppins)] text-balance">
+          <h2 className="text-4xl font-bold text-foreground mb-6 font-[family-name:var(--font-poppins)] text-balance">
             Complete Care for
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
