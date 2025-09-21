@@ -37,7 +37,7 @@ export default function LandingPage() {
             />
           </div>
           <h2 className="text-4xl font-bold text-foreground mb-6 font-[family-name:var(--font-poppins)] text-balance">
-            Complete Care for
+            Your Trusted Digital Health Companion
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
             Complete Care for women to manage PCOS, endometriosis, and fibroids with personalized tracking, expert resources,
