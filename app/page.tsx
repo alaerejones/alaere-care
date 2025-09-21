@@ -37,7 +37,7 @@ export default function LandingPage() {
             />
           </div>
           <h2 className="text-5xl font-bold text-foreground mb-6 font-[family-name:var(--font-poppins)] text-balance">
-            Your Trusted Digital Health Companion
+            Complete Care for PCOS, Endometriosis, and fibroid in One App
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
             Empowering women to manage PCOS, endometriosis, and fibroids with personalized tracking, expert resources,
