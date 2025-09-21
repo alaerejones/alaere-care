@@ -131,7 +131,7 @@ export default function LandingPage() {
 
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <Heart className="h-12 w-12 text-accent mx-auto mb-4" />
+                <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h4 className="text-xl font-semibold text-foreground mb-3 font-[family-name:var(--font-poppins)]">
                   Personalized Insights
                 </h4>
