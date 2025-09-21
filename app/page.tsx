@@ -20,7 +20,7 @@ export default function LandingPage() {
               </Button>
             </Link>
             <Link href="/signup">
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Get Started</Button>
+              <Button className="bg-primary text-accent-foreground hover:bg-primary/90">Get Started</Button>
             </Link>
           </div>
         </div>
