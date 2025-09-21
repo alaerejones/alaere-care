@@ -15,7 +15,8 @@ export default function LandingPage() {
           </div>
           <div className="flex items-center gap-4">
             <Link href="/login">
-              <Button variant="ghost" className="text-foreground hover:text-primary">
+
+              <Button variant="outline" className="text-foreground hover:text-primary">
                 Log In
               </Button>
             </Link>
