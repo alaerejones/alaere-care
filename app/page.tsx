@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Heart, Calendar, Users, BookOpen, Stethoscope, Shield } from "lucide-react"
 import Link from "next/link"
 
- export default function LandingPage() {
+export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -37,7 +37,7 @@ import Link from "next/link"
             />
           </div>
           <h2 className="text-5xl font-bold text-foreground mb-6 font-[family-name:var(--font-poppins)] text-balance">
-            Complete Care for PCOS, Endometriosis, and fibroid in One App
+            Your Trusted Digital Health Companion
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
             Empowering women to manage PCOS, endometriosis, and fibroids with personalized tracking, expert resources,
