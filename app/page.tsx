@@ -9,14 +9,17 @@ export default function LandingPage() {
       {/* Header */}
       <header className="border-b border-border bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Heart className="h-8 w-8 text-primary" />
+          <div className="flex items-center gap-1">
+            <Heart className="h-6 w-6 text-primary" />
             <h1 className="text-xl font-bold text-foreground font-[family-name:var(--font-poppins)]">Alaere Care</h1>
           </div>
           <div className="flex items-center gap-4">
             <Link href="/login">
 
-              <Button variant="outline" className="text-foreground hover:text-primary">
+              <Button 
+              size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10 px-8 py-3 bg-transparent">
                 Log In
               </Button>
             </Link>
