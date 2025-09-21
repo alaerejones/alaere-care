@@ -11,7 +11,7 @@
   --card-foreground: #333333; /* Charcoal gray text */
   --popover: #ffffff; /* White */
   --popover-foreground: #333333; /* Charcoal gray */
-  --primary: #a4c8e1; /* Soft blue primary */
+  --primary: #8E7CC3; /* Soft blue primary */
   --primary-foreground: #333333; /* Charcoal gray */
   --secondary: #f3e3e6; /* Muted pink secondary */
   --secondary-foreground: #333333; /* Charcoal gray */
@@ -24,7 +24,7 @@
   --border: #e0d4d8; /* Soft border color */
   --input: #ffffff; /* White inputs */
   --ring: rgba(164, 200, 225, 0.5); /* Soft blue focus ring */
-  --chart-1: #a4c8e1; /* Soft blue */
+  --chart-1: #8E7CC3; /* Soft blue */
   --chart-2: #ff6f61; /* Light coral */
   --chart-3: #f3e3e6; /* Muted pink */
   --chart-4: #b8d4e3; /* Lighter blue */
@@ -32,7 +32,7 @@
   --radius: 0.5rem; /* Slightly rounded edges */
   --sidebar: #f3e3e6; /* Muted pink */
   --sidebar-foreground: #333333; /* Charcoal gray */
-  --sidebar-primary: #a4c8e1; /* Soft blue */
+  --sidebar-primary: #8E7CC3; /* Soft blue */
   --sidebar-primary-foreground: #333333; /* Charcoal gray */
   --sidebar-accent: #ff6f61; /* Light coral */
   --sidebar-accent-foreground: #ffffff; /* White */
@@ -48,7 +48,7 @@
   --card-foreground: #f8f4f6; /* Light text */
   --popover: #3a2f33; /* Dark popover */
   --popover-foreground: #f8f4f6; /* Light text */
-  --primary: #a4c8e1; /* Keep soft blue */
+  --primary: #8E7CC3; /* Keep soft blue */
   --primary-foreground: #2a1f23; /* Dark text on primary */
   --secondary: #4a3f43; /* Darker muted pink */
   --secondary-foreground: #f8f4f6; /* Light text */
@@ -61,14 +61,14 @@
   --border: #4a3f43; /* Dark border */
   --input: #3a2f33; /* Dark input */
   --ring: rgba(164, 200, 225, 0.3); /* Dimmer focus ring */
-  --chart-1: #a4c8e1; /* Soft blue */
+  --chart-1: #8E7CC3; /* Soft blue */
   --chart-2: #ff6f61; /* Light coral */
   --chart-3: #6a5f63; /* Darker muted pink */
   --chart-4: #8bb4d1; /* Muted blue */
   --chart-5: #e85a4f; /* Darker coral */
   --sidebar: #2a1f23; /* Dark sidebar */
   --sidebar-foreground: #f8f4f6; /* Light text */
-  --sidebar-primary: #a4c8e1; /* Soft blue */
+  --sidebar-primary: #8E7CC3; /* Soft blue */
   --sidebar-primary-foreground: #2a1f23; /* Dark text */
   --sidebar-accent: #ff6f61; /* Light coral */
   --sidebar-accent-foreground: #ffffff; /* White */
